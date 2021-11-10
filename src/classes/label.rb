@@ -8,4 +8,6 @@ class Label
     @color = color
     @items = []
   end
+
+  def add_item; end
 end
