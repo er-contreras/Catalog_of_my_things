@@ -129,7 +129,6 @@ CREATE TABLE games(
     FOREIGN KEY(label_id)
       REFERENCES label(id)
       ON DELETE CASCADE
-);
 
 CREATE TABLE music_album(
   id SERIAL PRIMARY KEY,
