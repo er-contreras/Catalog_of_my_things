@@ -129,6 +129,7 @@ CREATE TABLE games(
     FOREIGN KEY(label_id)
       REFERENCES label(id)
       ON DELETE CASCADE
+);
 
 CREATE TABLE music_album(
   id SERIAL PRIMARY KEY,
@@ -157,3 +158,8 @@ CREATE TABLE music_album(
       REFERENCES label(id)
       ON DELETE CASCADE
 );
+
+CREATE INDEX author_id_asc_games ON games(author_id ASC);
+CREATE INDEX source_id_asc_games ON games(source_id ASC);
+CREATE INDEX genre_id_asc_games ON games(genre_id ASC);
+CREATE INDEX label_id_asc_games ON games(label_id ASC);
