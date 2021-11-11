@@ -40,7 +40,6 @@ module CreateItems
     }
     @db.save(data, 'movies')
   end
-  
 
   def add_book
     label = create_label
