@@ -2,6 +2,10 @@
 
 > Use Ruby to create an app with the command line.
 
+# Video Presentation:
+
+https://www.youtube.com/watch?v=6vyVtcpuyu8
+
 ## Built With
 
 - Ruby
