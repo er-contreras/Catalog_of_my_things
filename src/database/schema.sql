@@ -169,11 +169,6 @@ CREATE INDEX source_id_asc_book ON book(source_id ASC);
 CREATE INDEX genre_id_asc_book ON book(genre_id ASC);
 CREATE INDEX label_id_asc_book ON book(label_id ASC);
 
-CREATE INDEX author_id_asc_movies ON movies(author_id ASC);
-CREATE INDEX source_id_asc_movies ON movies(source_id ASC);
-CREATE INDEX genre_id_asc_movies ON movies(genre_id ASC);
-CREATE INDEX label_id_asc_movies ON movies(label_id ASC);
-
 CREATE INDEX author_id_asc_games ON games(author_id ASC);
 CREATE INDEX source_id_asc_games ON games(source_id ASC);
 CREATE INDEX genre_id_asc_games ON games(genre_id ASC);
