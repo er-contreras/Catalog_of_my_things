@@ -24,7 +24,7 @@ describe Movie do
     end
 
     it 'Returns false if super returns false or if the movie is not silent' do
-      movie = Movie.new(10, silent: false)
+      movie = Movie.new(2020, silent: false)
       expect(movie.can_be_archived?).to be false
     end
   end

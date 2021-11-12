@@ -19,6 +19,6 @@ describe Game do
   end
 
   it 'Test for can_be_archived? method' do
-    expect(game.can_be_archived?).to eq(false)
+    expect(game.can_be_archived?).to eq(true)
   end
 end

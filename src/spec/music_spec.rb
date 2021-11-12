@@ -17,7 +17,7 @@ describe MusicAlbum do
     expect(music_album.on_spotify).to eq(spotify)
   end
 
-  it 'Should return can_be_archived as false' do
-    expect(music_album.can_be_archived?).to eq(false)
+  it 'Should return can_be_archived as true' do
+    expect(music_album.can_be_archived?).to eq(true)
   end
 end
