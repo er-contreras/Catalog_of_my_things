@@ -35,7 +35,7 @@ module CreateItems
     movie.add_source(source)
     data = {
       publish_date: movie.publish_date,
-      silent: movie.silent == 1,
+      silent: movie.silent,
       source: movie.source.name
     }
     @db.save(data, 'movies')
@@ -45,6 +45,7 @@ module CreateItems
     label = create_label
     puts "\nWhen was it published (yyyy-mm-dd)?"
     publish_date = gets.chomp
+    p publish_date
     puts "\Who is the publisher of the book?"
     publisher = gets.chomp
     puts "\nWhich is the status of the cover? (ejem. bad or good)"

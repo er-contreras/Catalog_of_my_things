@@ -2,6 +2,8 @@
 
 > Use Ruby to create an app with the command line.
 
+<div align="center"><img src="./CLI_App.png" width="500"/></div>
+
 # Video Presentation:
 
 https://www.youtube.com/watch?v=6vyVtcpuyu8

@@ -68,7 +68,7 @@ module ShowItems
   def list_genres
     list = @db.get_all_data_of('genres')
     if list.empty?
-      puts "\nThere are no geners."
+      puts "\nThere are no genres."
     else
       puts "\nGenres:\n\n"
       list.each_with_index { |genre, index| puts "#{index} - #{genre['name']}" }
@@ -81,8 +81,8 @@ module ShowItems
       puts "\nThere are no books."
     else
       books.each do |book|
-        print "\nPublished: #{book['publish_date']} years ago, Publisher: #{book['publisher']} is in"
-        print " #{book['cover_state']} state"
+        print "\nPublished: #{book['publish_date']}, Publisher: #{book['publisher']}, "
+        print "State: is #{book['cover_state']}"
         puts ' '
       end
     end
@@ -93,7 +93,7 @@ module ShowItems
     if labels.empty?
       puts "\nThere are no labels."
     else
-      labels.each { |label| puts "\n Title: #{label['title']} Color: #{label['color']}" }
+      labels.each { |label| puts "\n Title: #{label['title']}, Color: #{label['color']}" }
     end
   end
 end
