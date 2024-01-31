@@ -41,9 +41,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Christian Erick Contreras**
 
-- [GitHub](https://github.com/eri8-9)
-- [LinkedIn](https://www.linkedin.com/in/christian-erick/)
-- [Twitter](https://twitter.com/ChristianErick_)
+- [GitHub](https://github.com/er-contreras)
+- [LinkedIn](https://www.linkedin.com/in/er-contreras/)
+- [Twitter](https://twitter.com/er_contreras_)
 
 ## 🤝 Contributing
 
